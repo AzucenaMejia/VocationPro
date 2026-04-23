@@ -11,5 +11,5 @@ Este proyecto no tiene licencia con tal y es creado simplemente como una idea pa
 ### De que trata:
 
 *	Una página para tener tutorías, orientación profesional y consejos para elegir la profesión más adecuada para ti.
-* Si ya saber que profesión elegir, pero estas en duda con lo que elegiste, puede tener orientación profesional.
+* Si ya sabes que profesión elegir, pero estas en duda con lo que elegiste, puede tener orientación profesional.
 *	Test personalizado para  vocación profesional.
