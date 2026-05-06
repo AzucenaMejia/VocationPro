@@ -11,11 +11,9 @@ Este proyecto no tiene licencia como tal y es creado simplemente como una idea p
 
 ### De que trata:
 
-<<<<<<< HEAD
 * Una página para tener tutorías, orientación profesional y consejos para elegir la profesión más adecuada para ti.
 * Si ya sabes que profesión elegir, pero estas en duda con lo que ha escogido, puede tener orientación profesional.
 * Test personalizado para vocación profesional.
-=======
 *	Una página para tener tutorías, orientación profesional y consejos para elegir la profesión más adecuada para ti.
 *	Si ya saber que profesión elegir, pero estas en duda con lo que ha escogido, puede tener orientación profesional.
 *	Test personalizado para vocación profesional.
@@ -51,5 +49,3 @@ Se tomaron referencias de páginas competidoras, pero se buscó un estilo más p
 
 [Puedes ver el diseño dando clic aquí.](https://www.figma.com/make/q1fcBChXZPHT8Uyv5UVAqF/Landing-page?p=f&t=bf2p2LS48jSE3g7p-0&fullscreen=1 )
 
-
->>>>>>> f2bab85496e7a9744026d6ca482dda150da51ce6
