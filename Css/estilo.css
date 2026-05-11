@@ -6,6 +6,7 @@ nav {
    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
    padding: 0;
    margin: 0;
+   width: 100%;
 
 }
 
@@ -21,6 +22,11 @@ nav {
    list-style: none;
    padding: 0;
    margin: 0; 
+}
+
+.nav-links a {
+   text-decoration: none;
+   color: #686666;
 }
 
 .botones-menu {
