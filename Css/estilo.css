@@ -12,6 +12,38 @@ footer{
 
 }
 
+.menu{
+   background-color: #ffffff;
+   display: flex;
+   justify-content: space-between;
+   padding: 0;
+   margin-bottom: 0;
+   gap: 1em;
+}
+
+.logo-menu{
+   height: 50px;
+   width: 120px;
+}
+
+.menu ul {
+   list-style: none;
+   display: flex;
+   margin: 2em;
+   padding: 0;
+}
+
+.menu ul li {
+   margin: 0 15px;
+}
+
+.menu ul li a {
+   text-decoration: none;
+   color: #797878;
+   transition: color 0.3s ease;
+   
+}
+
 
 
 
