@@ -1,24 +1,22 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
 body {
+   height: 100vh;
    background-color: #f9fbfd;
    font-family: 'Arial', sans-serif;
 }
 
 
-footer{
-   background-color:#f0f9f7;
-   border: 1px solid #e0e0e0;
-   margin-top: 50px;
-   padding: 50px 30px;
-
-}
-
 .menu{
-   background-color: #ffffff;
-   display: flex;
-   justify-content: space-between;
-   padding: 0;
-   margin-bottom: 0;
-   gap: 1em;
+   background-color: #fdfdfd;
+   display: flex; 
+   align-items: center; 
+   padding: 10px 20px; 
+   box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
+    
 }
 
 .logo-menu{
@@ -43,7 +41,13 @@ footer{
    transition: color 0.3s ease;
    
 }
+ 
 
 
+footer{
+   background-color:#f0f9f7;
+   border: 1px solid #e0e0e0;
+   margin-top: 50px;
+   padding: 50px 30px;
 
-
+}
