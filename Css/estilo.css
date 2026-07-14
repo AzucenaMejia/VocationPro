@@ -65,8 +65,8 @@ font-weight: bold;
    border:none;
    width: 100px;
    height: 30px;
-   font-weight: bold;
 }
+
 .contenido-banner {
    display: flex;
    flex-direction: column;
@@ -75,6 +75,7 @@ font-weight: bold;
    height: 100vh; 
    text-align: center;
 }
+
 .pequenio-titulo {
    color: #f5f3f8;
    background: linear-gradient(to right, #512bf7, #a93cd1);
