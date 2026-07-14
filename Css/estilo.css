@@ -59,6 +59,7 @@ font-weight: bold;
 }
 
 .comenzar {
+   color: #ffffff;
    background: linear-gradient(to right, #700aed, #c5aef0);
    border-radius: 7px;
    border:none;
@@ -66,8 +67,68 @@ font-weight: bold;
    height: 30px;
    font-weight: bold;
 }
+.contenido-banner {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh; 
+   text-align: center;
+}
+.pequenio-titulo {
+   color: #f5f3f8;
+   background: linear-gradient(to right, #512bf7, #a93cd1);
+   text-align: center;
+   justify-content: center;
+   padding: 5px 0;
+   border-radius: 20px;
+   width: 500px;
+   height: 30px;
+}
 
+.subtitulo1 {
+   font-size: 40px;
+   padding: 0 20px;
+   color: #262839;
+   text-align: center;
+   font-weight: bold;
 
+}
+.subtitulo2 {
+   font-size: 38px;
+   background: linear-gradient(to right, #512bf7, #f20ed4);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   text-align: center;
+   font-weight: bold;
+}
+
+.descripcion{
+   font-size:15px;
+   text-align: center;
+   color: #3c3c3c;
+   margin-top: 20px;
+   padding: 0 20px;
+}
+
+.boton-hacertest{
+   color: #ffffff;
+   background: linear-gradient(to right, #700aed, #fc1df8);
+   border-radius: 7px;
+   border:none;
+   width: 180px;
+   height: 30px;
+
+}
+
+.boton-agendarcita {
+   color: #9013ac;
+   background: transparent;
+   border-radius: 7px;
+   border: 1px solid #9013ac;
+   width: 180px;
+   height: 30px;
+}
 
 
 
