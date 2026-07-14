@@ -13,7 +13,7 @@ body {
    background-color: #fdfdfd;
    display: flex; 
    justify-content: space-between;
-   align-items: center; 
+   align-items: center;
    padding: 10px 20px; 
    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
 }
@@ -48,20 +48,34 @@ body {
 .botones-menu li{
    display: flex;
    padding: 0;
+   
 }
 
 .iniciar-sesion {
 text-decoration: none;
-color: #393939;
+color: #595757;
+font-weight: bold;
+
 }
 
 .comenzar {
    background: linear-gradient(to right, #700aed, #c5aef0);
-   border-radius: 5px;
+   border-radius: 7px;
    border:none;
    width: 100px;
    height: 30px;
+   font-weight: bold;
 }
+
+
+
+
+
+
+
+
+
+
 footer{
    background-color:#f0f9f7;
    border: 1px solid #e0e0e0;
