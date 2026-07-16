@@ -43,6 +43,7 @@ body {
 .botones-menu{
    display: flex;
    align-items: center;
+
 }
 
 .botones-menu li{
@@ -131,8 +132,44 @@ font-weight: bold;
    height: 30px;
 }
 
+/** Aqui es donde voy...**/
+.servicios {
+   margin-top: 10px;
+   padding: 0 20px;
+   
+
+}
+
+.titulo-servicios {
+   text-align: center;
+   color: #151515;
+
+}
+
+.descripcion-servicios {
+   text-align: center;
+   color: #3c3c3c;
+   padding: 0 20px;
+
+}
+
+.tarjeta-servicios{
+   display: grid;
+   grid-template-columns: 300px 300px 300px;
+   justify-content: center;
+   grid-gap: 50px;
+   padding: 40px 0;
+
+}
+
+.tarjeta-item {
+   
+}
 
 
+
+
+   
 
 
 
