@@ -85,6 +85,15 @@ body {
    text-align: center;
 }
 
+.circulo {
+   display: inline-block;
+   width: 8px;
+   height: 8px;
+   background-color: #fefafa;
+   border-radius: 25px;
+   margin: 7px;
+}
+
 .pequenio-titulo {
    color: #f5f3f8;
    background: linear-gradient(to right, #512bf7, #a93cd1);
@@ -207,3 +216,4 @@ footer{
    padding: 50px 30px;
 
 }
+
