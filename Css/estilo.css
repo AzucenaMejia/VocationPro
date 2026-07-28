@@ -1,7 +1,6 @@
 * {
    margin: 0;
    padding: 0;
-   box-sizing: border-box;
 }
 body {
    height: 100vh;
@@ -9,25 +8,21 @@ body {
    font-family: 'Poppins', sans-serif;
 }
 
-/** Aqui es donde voy... recuerda que debes hacer cambio ya que se cambio la tipografia (tamaños de texto, bordes, espacios etc. comienza desde aca.**/
 .menu{
    position: fixed;
    display: flex; 
    width: 100%;
-   font-size: 15px;
+   font-size: 14px;
    height: 70px;
    background-color: #fdfdfd;
    justify-content: space-between;
    align-items: center;
    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
-   
-
-
 }
 
 .logo-menu{
-   height: 50px;
-   width: 140px;
+   height: 55px;
+   width: 150px;
    margin-left: 20px;
 }
 
@@ -76,14 +71,22 @@ body {
    height: 40px;
 }
 
+/** Aqui es donde voy**/
+
+.container-banner{
+   background-image: url('/Componentes/Imagenes/banner.png'); 
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 100%;
+}
 .contenido-banner {
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   height: 100vh; 
    text-align: center;
-   padding-top: 200px;
+   padding-top: 150px;
 }
 
 .circulo {
@@ -102,22 +105,21 @@ body {
    justify-content: center;
    padding: 4px 0;
    border-radius: 20px;
-   width: 320px;
-   height: 40px;
-   font-size: 14px;
+   width: 300px;
+   height: 30px;
+   font-size: 13px;
 }
 
 .subtitulo1 {
-   font-size: 65px;
-   padding: 0 20px;
+   font-size: 60px;
+   padding: 0 30px;
    color: #262839;
    text-align: center;
    font-weight: bold;
-
 }
 .subtitulo2 {
-   font-size: 65px;
-   background: linear-gradient(to right, #512bf7, #d701bb);
+   font-size: 60px;
+   background: linear-gradient(to right, #512bf7, #d701badc);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
    text-align: center;
@@ -127,7 +129,7 @@ body {
 
 
 .descripcion{
-   font-size:20px;
+   font-size: 18px;
    text-align: center;
    color: #5f5e5e;
    margin-top: 30px;
