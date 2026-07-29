@@ -71,8 +71,6 @@ body {
    height: 40px;
 }
 
-/** Aqui es donde voy**/
-
 .container-banner{
    background-image: linear-gradient(rgba(248, 251, 252, 0.6), rgba(252, 183, 224, 0.74)),url('/Componentes/Imagenes/banner.png'); 
    background-size: cover;
@@ -163,45 +161,50 @@ body {
    height: 50px;
 }
 
-
 .servicios {
-   margin-top: 10px;
-   padding: 0 20px;
-   
-
+   margin-top: 60px;
+   padding: 0 30px;
 }
 
 .titulo-servicios {
    text-align: center;
-   color: #151515;
-
+   color: #1f1f1f;
 }
 
 .descripcion-servicios {
    text-align: center;
    color: #3c3c3c;
-   padding: 0 20px;
-
+   padding: 0 30px;
+   font-size: 13px;
 }
 
 .tarjeta-servicios{
    display: grid;
-   grid-template-columns: 300px 300px 300px;
+   grid-template-columns: 320px 320px 320px;
    justify-content: center;
    grid-gap: 30px;
    padding: 40px 0;
-
+  
 }
 
 .tarjeta-item {
-   border-radius: 10px;
-   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+   border-radius: 15px;
    padding:30px;
-   background-color: #ffffff;
+   border: 1px solid;
+
+}
+
+.icono-tarjeta{
+  width: 40px;
+  height: 40px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .titulo-tarjeta {
-   font-size: 15px;
+   font-size: 13px;
    color: #242323;
    margin-bottom: 10px;
 }
@@ -212,6 +215,17 @@ body {
    margin-bottom: 10px;
 }
 
+/** Aqui es donde voy**/
+
+.tarjeta-orientacion { 
+   background: linear-gradient(to bottom right,  #8a5cf617, #faf8fadc);
+   border-color: #8a5cf61e;
+}
+
+.icono-book {
+  background: linear-gradient(to bottom right,  #8B5CF6, #b511df);
+
+}
 
 
 
