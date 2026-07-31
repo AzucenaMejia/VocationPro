@@ -180,7 +180,7 @@ body {
 
 .tarjeta-servicios{
    display: grid;
-   grid-template-columns: 350px 350px 350px;
+   grid-template-columns: 370px 370px 370px;
    justify-content: center;
    grid-gap: 30px;
    padding: 40px 0;
@@ -195,31 +195,49 @@ body {
 }
 
 .icono-tarjeta{
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
 }
 
-/** hay que cambiar el tamaño de los iconos**/
-
 .titulo-tarjeta {
-   font-size: 13px;
+   font-size: 15px;
    color: #242323;
    margin-bottom: 10px;
 }
 
 .descripcion-tarjeta {
-   font-size: 12px;
-   color: #424242;
+   font-size: 14px;
+   color: #575757;
    margin-bottom: 10px;
 }
 
-/** Aqui es donde voy**/
-
 .tarjeta-orientacion { 
-   background: linear-gradient(to bottom right,  #8a5cf617, #faf8fadc);
-   border-color: #8a5cf61e;
+   background: linear-gradient(to bottom right,  #f1edfa, #fbfcfc);
+   border-color: #e2edfc;
 }
 
+.tarjeta-test { background: linear-gradient(to bottom right,  #f9f5f7, #faf8fadc);
+   border-color: #f1e5fc;
+}
+
+.tarjeta-tutorias { background: linear-gradient(to bottom right,  #fcf7f3, #faf8fadc);
+   border-color: #fdeee3;
+}
+
+.tarjeta-desarrollo { background: linear-gradient(to bottom right,  #f0f8f5, #faf8fadc);
+   border-color: #e3f9fd;
+}
+
+.tarjeta-cambio { background: linear-gradient(to bottom right,  #f5f9f9, #faf8fadc);
+   border-color: #dde8f9;
+}
+
+.tarjeta-busqueda { background: linear-gradient(to bottom right,  #f9f5f3, #faf8fadc);
+   border-color: #f8f1e1;
+}
+
+
+/** Aqui es donde voy**/
 
 
 
