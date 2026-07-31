@@ -72,7 +72,7 @@ body {
 }
 
 .container-banner{
-   background-image: linear-gradient(rgba(248, 251, 252, 0.6), rgba(252, 183, 224, 0.74)),url('/Componentes/Imagenes/banner.png'); 
+   background-image: linear-gradient(#efeaf9, #f9f1f5), url('/Componentes/Imagenes/banner.png'); 
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
@@ -162,20 +162,21 @@ body {
 }
 
 .servicios {
-   margin-top: 60px;
+   margin-top: 80px;
    padding: 0 30px;
 }
 
 .titulo-servicios {
    text-align: center;
-   color: #1f1f1f;
+   color: #3e3e3e;
+   font-size: 40px;
 }
 
 .descripcion-servicios {
    text-align: center;
-   color: #3c3c3c;
+   color: #5e5e5e;
    padding: 0 30px;
-   font-size: 13px;
+   font-size: 16px;
 }
 
 .tarjeta-servicios{
@@ -201,7 +202,7 @@ body {
 
 .titulo-tarjeta {
    font-size: 15px;
-   color: #242323;
+   color: #3e3e3e;
    margin-bottom: 10px;
 }
 
@@ -236,9 +237,7 @@ body {
    border-color: #f8f1e1;
 }
 
-
 /** Aqui es donde voy**/
-
 
 
 
