@@ -195,13 +195,11 @@ body {
 }
 
 .icono-tarjeta{
-  width: 40px;
-  height: 40px;
-  border-radius: 7px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 70px;
+  height: 70px;
 }
+
+/** hay que cambiar el tamaño de los iconos**/
 
 .titulo-tarjeta {
    font-size: 13px;
@@ -222,10 +220,9 @@ body {
    border-color: #8a5cf61e;
 }
 
-.icono-book {
-  background: linear-gradient(to bottom right,  #8B5CF6, #b511df);
 
-}
+
+
 
 
 
