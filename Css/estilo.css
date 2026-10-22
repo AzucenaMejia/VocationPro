@@ -72,7 +72,7 @@ body {
 }
 
 .container-banner{
-   background-image: linear-gradient(#efeaf9, #f9f1f5), url('/Componentes/Imagenes/banner.png'); 
+   background-image: url('/Componentes/Imagenes/banner.png'); 
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
@@ -109,14 +109,14 @@ body {
 }
 
 .subtitulo1 {
-   font-size: 60px;
+   font-size: 80px;
    padding: 0 30px;
    color: #262839;
    text-align: center;
    font-weight: bold;
 }
 .subtitulo2 {
-   font-size: 60px;
+   font-size: 80px;
    background: linear-gradient(to right, #512bf7, #d701badc);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
@@ -238,6 +238,33 @@ body {
 }
 
 /** Aqui es donde voy**/
+
+.para-quien {
+   margin-top: 80px;
+   padding: 0 30px;
+}
+
+.titulo-ParaQuien{
+   text-align: center;
+   color: #3e3e3e;
+   font-size: 40px;
+}
+
+.descripcion-paraquien {
+   text-align: center;
+   color: #5e5e5e;
+   padding: 0 30px;
+   font-size: 16px;
+}
+
+.tarjetade-paraquien{
+   display: grid;
+   grid-template-columns: 370px 370px 370px;
+   justify-content: center;
+   grid-gap: 30px;
+   padding: 40px 0;
+  
+}
 
 
 
