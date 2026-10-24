@@ -2,6 +2,7 @@
    margin: 0;
    padding: 0;
 }
+
 body {
    height: 100vh;
    background-color: #f9fafceb;
@@ -40,8 +41,7 @@ body {
 .menu ul li a {
    text-decoration: none;
    color: #797878;
-   transition: color 0.3s ease;
-   
+   transition: color 0.3s ease;  
 }
  
 .botones-menu{
@@ -53,7 +53,6 @@ body {
 .botones-menu li{
    display: flex;
    padding: 0;
-
 }
 
 .iniciar-sesion {
@@ -115,6 +114,7 @@ body {
    text-align: center;
    font-weight: bold;
 }
+
 .subtitulo2 {
    font-size: 80px;
    background: linear-gradient(to right, #512bf7, #d701badc);
@@ -124,15 +124,12 @@ body {
    font-weight: bold;
 }
 
-
-
 .descripcion{
    font-size: 18px;
    text-align: center;
    color: #5f5e5e;
    margin-top: 30px;
    padding: 0 230px;
-   
 }
 
 .botones-banner{
@@ -161,6 +158,8 @@ body {
    height: 50px;
 }
 
+/** Servicios **/
+
 .servicios {
    margin-top: 80px;
    padding: 0 30px;
@@ -185,14 +184,12 @@ body {
    justify-content: center;
    grid-gap: 30px;
    padding: 40px 0;
-  
 }
 
 .tarjeta-item {
    border-radius: 20px;
    padding:30px;
    border: 1px solid;
-
 }
 
 .icono-tarjeta{
@@ -237,6 +234,7 @@ body {
    border-color: #f8f1e1;
 }
 
+/** Para Quien **/
 
 .para-quien {
    margin-top: 80px;
@@ -272,12 +270,11 @@ body {
    border-radius : 20px;
    padding:30px;
    border-left: 5px solid;
+}
 
 .check-tarjeta{
   width: 80px;
   height: 80px;
-
-
 }
 
 footer{
@@ -285,6 +282,5 @@ footer{
    border: 1px solid #e0e0e0;
    margin-top: 50px;
    padding: 50px 30px;
-
 }
 
