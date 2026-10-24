@@ -265,20 +265,20 @@ body {
   
 }
 
-/** Aqui es donde voy**/
+/** Aqui es donde voy  border-left-color: hsla(23, 90%, 50%, 0.8) para cada cuadro;**/
 
 .tarjeta-item-paraquien {
-   border-radius: 20px;
+   display: flex;
+   border-radius : 20px;
    padding:30px;
-   border: 1px solid;
-}
+   border-left: 5px solid;
 
 .check-tarjeta{
   width: 80px;
   height: 80px;
+
+
 }
-
-
 
 footer{
    background-color:#f0f9f7;
