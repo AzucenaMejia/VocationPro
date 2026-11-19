@@ -325,7 +325,7 @@ body {
 .contenedor-test{
    margin-top: 80px;
    background-color: #fdfefef6;
-   height: 500px;
+   height: 450px;
    padding: 100px 0;  
 }
 
@@ -336,8 +336,8 @@ body {
    column-gap: 30px;
    grid-template-columns: 460px 460px;
    padding: 60px;
-   width: 950px;
-   height: 400px;
+   width: 800px;
+   height: 350px;
    margin:  0 auto;
    color: #f5f3f8;
    border-radius: 20px;
