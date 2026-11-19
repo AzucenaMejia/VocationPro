@@ -5,7 +5,7 @@
 
 body {
    height: 100vh;
-   background-color: #f9fafceb;
+   background-color: #f9f9ffef;
    font-family: 'Poppins', sans-serif;
 }
 
@@ -108,20 +108,20 @@ body {
 }
 
 .subtitulo1 {
-   font-size: 80px;
+   font-size: 70px;
    padding: 0 30px;
    color: #262839;
    text-align: center;
-   font-weight: bold;
+   font-weight: 500;
 }
 
 .subtitulo2 {
-   font-size: 80px;
+   font-size: 70px;
    background: linear-gradient(to right, #512bf7, #d701badc);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
    text-align: center;
-   font-weight: bold;
+   font-weight: 500;
 }
 
 .descripcion{
@@ -161,8 +161,10 @@ body {
 /** Servicios **/
 
 .servicios {
-   margin-top: 80px;
    padding: 0 30px;
+   background-color: #fdfefef6;
+   height: 600px;
+   padding: 100px 0;  
 }
 
 .titulo-servicios {
@@ -274,8 +276,6 @@ body {
    border-left: 5px solid;
 }
 
-/** Aqui es donde voy  **/
-
 .check-tarjeta{
   width: 70px;
   height: 70px;
@@ -305,6 +305,50 @@ body {
   border-left-color: rgb(250, 174, 9);
 }
 
+.edad{
+   background: linear-gradient(to right, #512bf7, #a93cd1);
+   border-radius: 25px;
+   width: 900px;
+   height: 50px;
+   margin: 0 auto;
+}
+
+.rango-edad{
+   color: #f5f3f8;
+   font-size: 18px;
+   text-align: center;
+   padding: 10px 0;     
+}
+
+/** Aqui es donde voy  **/
+
+.contenedor-test{
+   margin-top: 80px;
+   background-color: #fdfefef6;
+   height: 500px;
+   padding: 100px 0;  
+}
+
+
+.test-vocacional{
+   display: grid;
+   background: linear-gradient(to right, #512bf7, #a93cd1);
+   column-gap: 30px;
+   grid-template-columns: 460px 460px;
+   padding: 60px;
+   width: 950px;
+   height: 400px;
+   margin:  0 auto;
+   color: #f5f3f8;
+   border-radius: 20px;
+
+}
+
+.info-text{
+}
+
+
+
 
 footer{
    background-color:#f0f9f7;
@@ -312,4 +356,3 @@ footer{
    margin-top: 50px;
    padding: 50px 30px;
 }
-
